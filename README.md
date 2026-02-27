@@ -69,3 +69,15 @@ This framework enables fraud teams to:
 - Make data-driven decisions about review capacity and alert thresholds.
 
 The results demonstrate that fraud risk optimization is not only a modeling problem—but a decision policy and cost allocation problem.
+
+---
+
+## Technical Stack
+
+- Python (≥3.9)
+- scikit-learn (Logistic Regression / probabilistic modeling)
+- NumPy / pandas (data manipulation)
+- Cost-sensitive evaluation framework
+- Threshold optimization
+- Precision, Recall, Confusion Matrix analysis
+- Deterministic simulation-based cost modeling
