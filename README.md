@@ -47,3 +47,25 @@ The analysis isolates decision-layer effects to understand how:
 - Cost trade-offs influence optimal alert strategies.
 
 No model retraining is performed. The focus is on operational optimization through decision policy design.
+
+---
+
+## Results & Business Impact
+
+Key findings from the cost-sensitive simulations:
+
+- Threshold optimization alone can significantly reduce alert volume while maintaining strong fraud detection performance.
+- Indiscriminate or fixed-percentage review policies may increase total operational cost when review cost is non-trivial.
+- Selective review allocation (focused on highest-risk alerts) provides better cost-performance balance than blanket review strategies.
+- Cost modeling often delivers larger gains than model retraining when operational costs are asymmetric.
+
+### Operational Implications
+
+This framework enables fraud teams to:
+
+- Reduce unnecessary alert reviews.
+- Quantify the trade-off between fraud loss and investigation cost.
+- Optimize investigator workload without sacrificing fraud capture rate.
+- Make data-driven decisions about review capacity and alert thresholds.
+
+The results demonstrate that fraud risk optimization is not only a modeling problem—but a decision policy and cost allocation problem.
